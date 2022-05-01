@@ -1,22 +1,20 @@
 import React from 'react'
 import './Feed.css'
 
+import { Avatar } from '../Avatar'
+
 export default function Feed() {
   return (
     <div className="container">
       <section className="feed">
         <article className="post">
             <header className="post__header">
-              <div className="user">
-                <a href="/" className="user__thumb">
-                  <img src="img/profiles/yoda/yoda-profile.jpg" alt="" />
-                </a>
-
-                <a href="/" className="user__name">
-                  Mestre Yoda
-                </a>
-              </div>
-
+              <div className="user">  
+                <Avatar image="https://i.pinimg.com/280x280_RS/d1/99/61/d1996167f4bb26299cd970a6e0685f90.jpg"/>
+      
+                <a href="/" className="user__thumb">Mestre Yoda</a>           
+              </div>  
+              
               <button className="post__context">
                 <i className="fas fa-ellipsis-h"></i>
               </button>
@@ -42,9 +40,10 @@ export default function Feed() {
 
             <div className="post__status">
               <div className="user">
-                <a href="/" className="user__thumb">
-                  <img src="img/profiles/domino/domino-profile.jpg" alt="" />
-                </a>
+
+              <Avatar image="https://i.pinimg.com/280x280_RS/d1/99/61/d1996167f4bb26299cd970a6e0685f90.jpg"
+              tamanho='pequeno'
+              />
 
                 <span>
                   curtido por <a href="/">Domino</a> e outras{" "}
@@ -53,7 +52,7 @@ export default function Feed() {
               </div>
             </div>
         </article>
-        <article class="post">
+  {/*       <article class="post">
           <header class="post__header">
             <div class="user">
               <a href="/" class="user__thumb">
@@ -281,7 +280,7 @@ export default function Feed() {
             </span>
             </div>
           </div>
-        </article>
+        </article> */}
       </section>
     </div>
   )

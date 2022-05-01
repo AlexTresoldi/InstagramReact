@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fecf8f7f-4100-48c9-9733-ef73f55670b0/deploy-status)](https://app.netlify.com/sites/instagram-tera-react/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
